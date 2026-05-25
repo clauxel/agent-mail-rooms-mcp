@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "agentmailrooms",
+    "name": "Agent Mail Rooms",
+    "website": "https://agentmailrooms.clauxel.com/",
+    "endpoint": "https://agentmailrooms.clauxel.com/mcp",
+    "serverCard": "https://agentmailrooms.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.agentmailrooms/agentmailrooms-mcp",
+    "tools": [
+      "mail_read_thread",
+      "mail_post_update",
+      "file_lease_claim",
+      "room_status_receipt"
+    ],
+    "docsRepo": "agent-mail-rooms-mcp",
+    "docs": "https://github.com/clauxel/agent-mail-rooms-mcp",
+    "packageName": "@clauxel/agentmailrooms-mcp",
+    "directoryName": "agentmailrooms-mcp",
+    "category": "Developer Tools",
+    "tagline": "Hosted MCP for OpenAI Codex agent coordination MCP.",
+    "description": "Agent Mail Rooms is a paid remote MCP endpoint for OpenAI Codex agent coordination MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://agentmailrooms.clauxel.com/favicon.svg"
+  }
+}
